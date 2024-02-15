@@ -1,0 +1,36 @@
+.swiper-pagination {
+  position: initial;
+  margin-top: 1rem;
+}
+
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  border: 3px solid var(--title-color);
+  background-color: transparent;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color);
+}
+
+.testimonial__qoute {
+  background-color: var(--container-color);
+  padding: 2.5rem 2rem 3rem;
+  border-radius: var(--radius);
+  position: relative;
+}
+
+.testimonial__qoute::before {
+  content: "";
+  position: absolute;
+  inset: 0.5rem;
+  border: 2px dashed var(--first-color);
+  border-radius: var(--radius);
+}
+
+.testimonial__title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
